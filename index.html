@@ -1,0 +1,115 @@
+<html>
+
+<head>
+	<title>Breedey</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="Logo.webp">
+	<script src="main.js"></script>
+</head>
+
+<body onload="setDate()">
+	<img id="logo" onclick="homeScreen()" src="Logo.webp">
+	<h3 id="date"></h3>
+	<h1>Breedey</h1>
+	<hr>
+	<nav>
+		<ul>
+			<li><a class="navigator" href="index.html">Home</a></li>
+			<li><a class="navigator" href="food.html">Food</a></li>
+			<li><a class="navigator" href="care.html">Care</a></li>
+			<li><a class="navigator" href="toys.html">Toys</a></li>
+		</ul>
+	</nav>
+	<hr>
+	<h2>Breeds</h2>
+	<button id="German Shepard" onclick="GS()">German Shepard</button>
+	<button id="Labrador" onclick="Lab()">Labrador</button>
+	<button id="Golden Retriver" onclick="GR()">Golden Retriver</button>
+	<button id="Chow Chow" onclick="CC()">Chow Chow</button>
+	<button id="Bull Dog" onclick="BD()">Bull Dog</button>
+	<button id="Doberman" onclick="Dober()">Doberman</button>
+	<button id="Boxer" onclick="Boxer()">Boxer</button>
+	<button id="Pug" onclick="Pug()">Pug</button>
+	<button id="Poodle" onclick="Poodle()">Poodle</button>
+	<button id="Rottweiler" onclick="Rott()">Rottweiler</button>
+	<button id="Husky" onclick="Husky()">Husky</button>
+	<button id="Pomeranian" onclick="Pome()">Pomeranian</button>
+	<button id="Chihuahua" onclick="Chi()">Chihuahua</button>
+	<button id="Dachshund" onclick="Dach()">Dachshund</button>
+	<button id="Great Dane" onclick="GD()">Great Dane</button>
+	<button id="Greyhound" onclick="GH()">Greyhound</button>
+	<button id="Shih Tzu" onclick="ST()">Shih Tzu</button>
+	<button id="Maltese" onclick="Mal()">Maltese</button>
+	<button id="Boston Terrier" onclick="BT()">Boston Terrier</button>
+	<button id="Border Collie" onclick="BC()">Border Collie</button>
+	<button id="Bichon Frise" onclick="BF()">Bichon Frise</button>
+	<button id="Alasken Malamute" onclick="AM()">Alasken Malamute</button>
+	<button id="Basset Hound" onclick="BH()">Basset Hound</button>
+	<button id="St.Bernard" onclick="SB()">St.Bernard</button>
+	<hr>
+	<h2>Food</h2>
+	<img id="dogFood" src="Dogfood.jpg">
+	<p>Dog foods are formulated so that the needed nutrients are readily available to your dog's digestive system and thus easily absorbed by the body. Digestibility is important so your dog can use all the nutrients in his food and easily rid his body of waste products. Good nutrition is feeding your dog the building blocks and energy components that allow them to grow, develop to their potential and stay active throughout their life. There are many ways to feed your dog and hundreds of diets to choose from. Most people tend to use dry and canned dog food for convenience and cost.</p>
+	<button id="food_Button" onclick="food_Nav()">View</button>
+	<hr>
+	<h2>Care</h2>
+	<img id="dogCare" src="dogCare.jpg">
+	<p>In general, doggy daycare is what it sounds like: a place where your dog is cared for during the day while you're at work or otherwise occupied. Doggy daycare offers playtime, companionship, and supervision. For many dogs, it's a great alternative or addition to midday walks. Dog daycare is NOT where you socialize your dog, but can help maintain socialization. You should not use daycare as a means to start socializing your puppy or dog, but if they are already socialized and dog (and people) tolerant, it can help to maintain that level of socialization.</p>
+	<button id="care_Button" onclick="care_Nav()">View</button>
+	<hr>
+	<h2>Toys</h2>
+	<img id="dogToys" src="dogToys.jpg">
+	<p>Toys are important to your dog's well-being. Toys help fight boredom when you have to leave your dog at home, and provide comfort when they're feeling nervous. Toys can even help prevent your dog from developing certain problem behaviors. Generally speaking, most dogs like toys that simulate prey. This is why squeaky toys and soft toys are often very popular with most dogs. Hearing the high-pitched squeak and/or ripping apart a soft plush toy can be immensely satisfying to some dogs. ... Many people might think their dog has no interest in toys.</p>
+	<button id="toys_Button" onclick="toys_Nav()">View</button>
+	<footer>
+		<section>
+		<p id="footer">Made with love by</p>
+  <img id="footerLogo" src="Logo.webp">
+	<p id="footer_Head">Breedey</p>
+	</section>
+<svg viewBox="0 0 120 28">
+ <defs> 
+   <mask id="xxx">
+     <circle cx="7" cy="12" r="40" fill="#fff" />
+   </mask>
+   
+   <filter id="goo">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur" />
+      <feColorMatrix in="blur" mode="matrix" values="
+           1 0 0 0 0  
+           0 1 0 0 0  
+           0 0 1 0 0  
+           0 0 0 13 -9" result="goo" />
+      <feBlend in="SourceGraphic" in2="goo" />
+  	</filter>
+     <path id="wave" d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
+  </defs> 
+
+   <use id="wave3" class="wave" xlink:href="#wave" x="0" y="-2" ></use> 
+   <use id="wave2" class="wave" xlink:href="#wave" x="0" y="0" ></use>
+ 
+  <g class="topball">
+  <circle class="ball" cx="110" cy="8" r="4" stroke="none" stroke-width="0" fill="red" />
+
+    <g class="arrow">
+    <polyline class="" points="108,8 110,6 112,8" fill="none"  />
+    <polyline class="" points="110,6 110,10.5" fill="none"  />
+    </g>
+    
+  </g>
+  <g class="gooeff">
+  <circle class="drop drop1" cx="20" cy="2" r="1.8"  />
+  <circle class="drop drop2" cx="25" cy="2.5" r="1.5"  />
+  <circle class="drop drop3" cx="16" cy="2.8" r="1.2"  />
+    <use id="wave1" class="wave" xlink:href="#wave" x="0" y="1" />
+  
+    <!-- g mask="url(#xxx)">
+    <path   id="wave1"  class="wave" d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
+    </g>
+  </g -->
+
+</svg>
+</footer>
+</body>
+
+</html>

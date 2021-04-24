@@ -1,0 +1,101 @@
+<html>
+
+<head>
+	<title>Breedey</title>
+	<link rel="stylesheet" href="food.css">
+	<link rel="icon" href="Logo.webp">
+	<script src="food.js"></script>
+</head>
+
+<body onload="setDateFood()">
+	<img onclick="logoNav()" id="foodScr_Logo" src="Logo.webp">
+	<h3 id="foodScr_Date"></h3>
+	<h1>Breedey</h1>
+	<hr>
+	<nav>
+		<ul class="navigation">
+			<li class="foodLinks"><a href="index.html">Home</a></li>
+			<li class="foodLinks"><a href="food.html">Food</a></li>
+			<li class="foodLinks"><a href="care.html">Care</a></li>
+			<li class="foodLinks"><a href="toys.html">Toys</a></li>
+		</ul>
+		<hr>
+		<h2>Importance Of Dog Food</h2>
+		<p class="importance">Dog foods are formulated so that the needed nutrients are readily available to your dog's digestive system and thus easily absorbed by the body. Digestibility is important so your dog can use all the nutrients in his food and easily rid his body of waste products. Good nutrition is feeding your dog the building blocks and energy components that allow them to grow, develop to their potential and stay active throughout their life. There are many ways to feed your dog and hundreds of diets to choose from. Most people tend to use dry and canned dog food for convenience and cost. Most adult dogs seem to do best on two meals per day, but some people find that their dogs do better on one meal a day. When it's time for a meal, present the food and set a timer for five minutes. Your dog now has five minutes to eat his meal. he number of meals a dog eats per day depends completely on the family schedule. Dogs should eat at least two meals each day, about 12 hours apart. But a breakfast, lunch, and dinner schedule is an equally great option. If more than 12 hours elapses between meals, the stomach can become hyperacidic causing nausea.</p>
+		<hr>
+		<h2>Products</h2>
+		<button id="IAMS" onclick="IAM()">IAMS Dog Food</button>
+		<button id="Pedigree" onclick="Pedi()">Pedigree</button>
+		<button id="Royal" onclick="RC()">Royal Canin</button>
+		<button id="Meat" onclick="MP()">Meat Up</button>
+		<button id="Chappi" onclick="Chap()">Chappi</button>
+		<button id="Blue" onclick="BB()">Blue Buffalo</button>
+		<button id="Dimaond" onclick="Dia()">Diamond Pet Food</button>
+		<button id="Bea" onclick="BP()">Beaphar</button>
+		<button id="Smucker" onclick="JMS()">J.M Smucker</button>
+		<button id="Hill" onclick="HPN()">Hill's Pet Nutrition</button>
+		<button id="Merrick" onclick="MPC()">Merrick Pet Care</button>
+		<button id="Central" onclick="CG()">Central Garden</button>
+		<hr>
+	</nav>
+	<h2>Types</h2>
+	<section class="categories">
+		<ul class="types">
+			<li class="foodType">Canned Dog Food</li>
+			<li class="foodType">Dry Food</li>
+			<li class="foodType">Freezed Dry Dog Food</li>
+			<li class="foodType">Natural And Organic Food</li>
+		</ul>
+	</section>
+	<footer>
+		<section>
+		<p id="footerlove">Made with love by</p>
+  <img id="footerLogo" src="Logo.webp">
+	<p id="footer_Head">Breedey</p>
+	</section>
+<svg viewBox="0 0 120 28">
+ <defs> 
+   <mask id="xxx">
+     <circle cx="7" cy="12" r="40" fill="#fff" />
+   </mask>
+   
+   <filter id="goo">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur" />
+      <feColorMatrix in="blur" mode="matrix" values="
+           1 0 0 0 0  
+           0 1 0 0 0  
+           0 0 1 0 0  
+           0 0 0 13 -9" result="goo" />
+      <feBlend in="SourceGraphic" in2="goo" />
+  	</filter>
+     <path id="wave" d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
+  </defs> 
+
+   <use id="wave3" class="wave" xlink:href="#wave" x="0" y="-2" ></use> 
+   <use id="wave2" class="wave" xlink:href="#wave" x="0" y="0" ></use>
+ 
+  <g class="topball">
+  <circle class="ball" cx="110" cy="8" r="4" stroke="none" stroke-width="0" fill="red" />
+
+    <g class="arrow">
+    <polyline class="" points="108,8 110,6 112,8" fill="none"  />
+    <polyline class="" points="110,6 110,10.5" fill="none"  />
+    </g>
+    
+  </g>
+  <g class="gooeff">
+  <circle class="drop drop1" cx="20" cy="2" r="1.8"  />
+  <circle class="drop drop2" cx="25" cy="2.5" r="1.5"  />
+  <circle class="drop drop3" cx="16" cy="2.8" r="1.2"  />
+    <use id="wave1" class="wave" xlink:href="#wave" x="0" y="1" />
+  
+    <!-- g mask="url(#xxx)">
+    <path   id="wave1"  class="wave" d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
+    </g>
+  </g -->
+
+</svg>
+</footer>
+</body>
+
+</html>
